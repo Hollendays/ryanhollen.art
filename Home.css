@@ -24,33 +24,15 @@
 .u-section-1 .u-text-3 {
   font-family: Alata;
   line-height: 1.11;
-  margin: -33px auto 0 -47px;
+  width: 147px;
+  margin: 15px auto 0 -47px;
 }
 
 .u-section-1 .u-text-4 {
   font-family: Alata;
   line-height: 1.11;
-  width: 147px;
-  margin: 15px auto 0 -47px;
-}
-
-.u-section-1 .u-text-5 {
-  font-family: Alata;
-  line-height: 1.11;
-  margin: -33px auto 0 -47px;
-}
-
-.u-section-1 .u-text-6 {
-  font-family: Alata;
-  line-height: 1.11;
   width: 104px;
-  margin: 15px auto 0 -47px;
-}
-
-.u-section-1 .u-text-7 {
-  font-family: Alata;
-  line-height: 1.11;
-  margin: -33px auto 60px -47px;
+  margin: 15px auto 60px -47px;
 }
 
 @media (max-width: 1199px) {
@@ -82,11 +64,29 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 517px;
+    min-height: 577px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 147px;
+    width: auto;
+    margin-top: 128px;
+    margin-right: -103px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: auto;
+    margin-left: 0;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 788px;
