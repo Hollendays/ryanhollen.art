@@ -1,3 +1,90 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("https://assets.nicepagecdn.com/2ce82ee1/4328617/images/background-elephant.jpg");
+}
+
 .u-section-1 .u-sheet-1 {
-  min-height: 400px;
+  min-height: 755px;
+}
+
+.u-section-1 .u-image-1 {
+  height: 454px;
+  width: 365px;
+  object-position: 50% 100%;
+  margin: 151px 71px 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Alata;
+  margin: -573px auto 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.125rem;
+  font-family: Alata;
+  letter-spacing: 1px;
+  line-height: 1.38;
+  margin: 32px 506px 0 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 1746px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 306px;
+    margin-left: 48px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-2 {
+    margin-right: 86px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-top: 250px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -673px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-right: 48px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1739px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 423px;
+    margin-top: 1284px;
+    object-position: 50% 50%;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: -1703px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.25rem;
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
 }
